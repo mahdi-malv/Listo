@@ -29,14 +29,14 @@ public class MainActivity extends AppCompatActivity {
     private void init() {
         recyclerView = findViewById(R.id.list);
         List<String> list = new ArrayList<>();
-        list.add("GGG");
-        list.add("GGG2");
-        list.add("GGG23");
-        list.add("GGG233");
-        list.add("GGG233");
-        list.add("GGG233");
-        list.add("GGG233");
-        list.add("GGG2333");
+        list.add("First item");
+        list.add("Second item");
+        list.add("Third item");
+        list.add("Forth item");
+        list.add("Fifth item");
+        list.add("Sixth item");
+        list.add("Seventh item");
+        list.add("Eighth item");
 
         new Listo.Builder<String>()
                 .load(recyclerView)
